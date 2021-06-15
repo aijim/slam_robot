@@ -115,6 +115,15 @@
     <origin xyz="0.1814 0 0.1414"/>
   </joint>
 
+  <joint name="camera_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+    <parent link="camera"/>
+    <child link="camera_link_optical"/>
+  </joint>
+
+  <link name="camera_link_optical">
+  </link>
+
   <link name="right_wheel">
     <inertial>
       <mass value="5.0"/>
