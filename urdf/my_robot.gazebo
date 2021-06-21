@@ -2,26 +2,26 @@
 <robot>
   <gazebo reference="base_link">
      <material>Gazebo/Blue</material>
-    <turnGravityOff>true</turnGravityOff>
+    <!--<turnGravityOff>true</turnGravityOff>-->
   </gazebo>
   <gazebo reference="head">
      <material>Gazebo/White</material>
-    <turnGravityOff>true</turnGravityOff>
+    <!--<turnGravityOff>true</turnGravityOff>-->
   </gazebo>
   <gazebo reference="camera">
      <material>Gazebo/Black</material>
-    <turnGravityOff>true</turnGravityOff>
+    <!--<turnGravityOff>true</turnGravityOff>-->
   </gazebo>
   <gazebo reference="right_wheel">
      <material>Gazebo/Black</material>
-    <turnGravityOff>true</turnGravityOff>
+    <!--<turnGravityOff>true</turnGravityOff>-->
   </gazebo>
   <gazebo reference="left_wheel">
      <material>Gazebo/Black</material>
-    <turnGravityOff>true</turnGravityOff>
+    <!--<turnGravityOff>true</turnGravityOff>-->
   </gazebo>
   <gazebo reference="hokuyo">
-    <turnGravityOff>true</turnGravityOff>
+    <!--<turnGravityOff>true</turnGravityOff>-->
   </gazebo>  
   <gazebo>
     <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
